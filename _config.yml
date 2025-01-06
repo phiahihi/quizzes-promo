@@ -6,15 +6,14 @@ ios_app_id: 6504491690 # Required. Enter iOS app ID to automatically populate na
 ios_app_country: vn # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link: # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link: # Enter Google Play Store URL.
-presskit_download_link:
-  https://emilbaehr.com # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+playstore_link:
+  https://play.google.com/store/apps/details?id=todoapp.syncplanner.reminders
   # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon: # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: Write a short tagline for your app.
+app_description: Quizzes - Trắc Nghiệm là ứng dụng dành cho những người yêu thích thử thách trí tuệ và khám phá kiến thức. Với hàng loạt câu hỏi đa dạng thuộc nhiều chủ đề như Nghệ thuật & Văn học, Khoa học, Địa lý, Công nghệ, và cả Văn hóa đại chúng, bạn sẽ luôn tìm thấy điều thú vị để học hỏi.
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -23,50 +22,31 @@ your_name: Nguyễn Đức Hoàng Phi
 your_link: nguyenduchoangphi922016@gmail.com
 your_city: Nha Trang
 email_address: nguyenduchoangphi922016@gmail.com
-facebook_username: phiahihi
-instagram_username: phiahihi
-twitter_username: phiahihi
+facebook_username: hoangfree
 github_username: phiahihi
-youtube_username:
 mastodon_link: nguyenduchoangphi922016@gmail.com
 
 # Feature List                            Edit, add or remove features to be presented.
 features:
-  - title: Phi ne
-    description: Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name: magic
+  - title: Trải nghiệm đa dạng chủ đề
+    description: Khám phá hàng ngàn câu hỏi trắc nghiệm thuộc nhiều chủ đề như Nghệ thuật, Khoa học, Lịch sử, Công nghệ, và Văn hóa đại chúng. Chọn chủ đề yêu thích hoặc thử sức ở lĩnh vực mới!
+    fontawesome_icon_name: layer-group
 
-  - title: iPhone Device Preview
-    description: Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name: mobile
+  - title: Chơi và nhận phần thưởng
+    description: Trả lời đúng để nhận điểm số, xu thưởng và các phần thưởng độc quyền. Thách đấu bạn bè và chinh phục bảng xếp hạng!
+    fontawesome_icon_name: trophy
 
-  - title: Video Support
-    description: Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name: play-circle
+  - title: Giao diện thân thiện, dễ sử dụng
+    description: Ứng dụng được thiết kế trực quan với hình ảnh và màu sắc sinh động, mang lại trải nghiệm học hỏi thú vị và lôi cuốn.
+    fontawesome_icon_name: palette
 
-  - title: Automatic Icon and Metadata
-    description: Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name: sync
+  - title: Cập nhật câu hỏi thường xuyên
+    description: Câu hỏi mới được cập nhật hàng tuần, đảm bảo nội dung luôn phong phú và phù hợp với mọi đối tượng người chơi.
+    fontawesome_icon_name: sync-alt
 
-  - title: Easy to Tweak
-    description: Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: adjust
-
-  - title: Feature List
-    description: Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: star
-
-  - title: Smart App Banner
-    description: Display a smart app banner on iOS devices.
-    fontawesome_icon_name: arrow-alt-circle-down
-
-  - title: Social Links
-    description: Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: link
-
-  - title: FontAwesome Support
-    description: Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: info-circle
+  - title: Hỗ trợ đa nền tảng
+    description: Dễ dàng truy cập ứng dụng trên mọi thiết bị, từ điện thoại di động đến máy tính bảng, với tốc độ mượt mà và ổn định.
+    fontawesome_icon_name: mobile-alt
 
   - title: # New Feature Title
     description: # New Feature Description
