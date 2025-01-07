@@ -57,4 +57,6 @@ These Terms shall be governed by and construed in accordance with the laws of [V
 
 If you have any questions or concerns about these Terms, please contact us at [nguyenduchoangphi922016@gmail.com].
 
+## 11. Attribution
+Some icons and assets used in this app are sourced from Freepik (www.freepik.com). We acknowledge and appreciate their contribution. By using our app, you agree to respect the terms of use provided by Freepik.
 ---
